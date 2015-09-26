@@ -1,2 +1,7 @@
+Twitter:
 API Consumer Key: SBaf2q9o4CZeZIZ67UDflCbgb
 API Secret Key: GOy85nawC5U0R6YtbwPlgSyifytXrTjfVFZHDzJRqTpZaS0oLF
+
+Facebook: 
+API ID: 527447874088106
+API Secret: c23c1d628008a037a41096bcbd9f2fc1
