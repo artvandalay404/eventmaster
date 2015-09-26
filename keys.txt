@@ -1,2 +1,2 @@
 API Consumer Key: SBaf2q9o4CZeZIZ67UDflCbgb
-API Secrete Key: GOy85nawC5U0R6YtbwPlgSyifytXrTjfVFZHDzJRqTpZaS0oLF
+API Secret Key: GOy85nawC5U0R6YtbwPlgSyifytXrTjfVFZHDzJRqTpZaS0oLF
