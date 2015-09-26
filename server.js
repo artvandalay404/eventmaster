@@ -14,11 +14,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
-  console.log(twitter.getData(33.777220,-84.3962800,1, function (tweets) {
-    console.log (tweets);
-  }));
-  console.log(facebook.getData(33.777220,-84.3962800,1000,"", function (events) {
+  twitter.getData(33.777220,-84.3962800,1, function (tweets) {
+    // console.log (tweets);
+  });
+  facebook.getData(33.777220,-84.3962800,1000,"", function (events) {
     console.log (events);
-  }));
+  });
 
 })
