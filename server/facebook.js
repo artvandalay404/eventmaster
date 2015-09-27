@@ -66,7 +66,7 @@ exports.getData = function(lat, lng, distance, sort, callback) {
       venuesCount = 0,
       venuesWithEvents = 0,
       eventsCount = 0,
-      placeUrl = "https://graph.facebook.com/v2.4/search?type=place&q=*&center=" + lat + "," + lng + "&distance=" + distance + "&limit=1000&fields=id&access_token=" + access_token;
+      placeUrl = "https://graph.facebook.com/v2.4/search?type=place&q=*&center=" + lat + "," + lng /* + "&distance=" + distance */ + "&limit=1000&fields=id&access_token=" + access_token;
     //Get places as specified
     rp.get(placeUrl).then(function(responseBody) {
 
