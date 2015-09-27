@@ -31,6 +31,7 @@
     "gulp-uglify": "^1.4.1",
     "gulp-util": "^3.0.6",
     "leaflet": "^0.7.5",
+    "leaflet-search": "^1.8.4",
     "leaflet.locatecontrol": "^0.45.0",
     "lodash": "^3.10.1",
     "moment": "^2.10.6",
