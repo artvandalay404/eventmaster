@@ -20,8 +20,7 @@ module.exports = function MapApp() {
           var marker = L.marker([data.events[event].venueLocation.latitude,data.events[event].venueLocation.longitude]).addTo(map);
           var time = moment(data.events[event].eventStarttime);
           var timeString = time.format("dddd, MMMM Do YYYY, h:mm:ss a");
-          marker.bindPopup("<div>" + data.events[event].eventName + "</div>" + timeString);
-
+          marker.bindPopup("<div><h1><a href=http://www.facebook.com/events/" + data.events[event].eventId + ">" + data.events[event].eventName + "</a></h1></div>" + timeString);
         }
       }
     },
