@@ -60,7 +60,7 @@ function haversineDistance(coords1, coords2, isMiles) {
 }
 
 exports.getData = function(lat, lng, distance, sort, callback) {
-  var access_token='527447874088106|c23c1d628008a037a41096bcbd9f2fc1';
+  var access_token='';
   var idLimit = 50, //FB only allows 50 ids per /?ids= call
       currentTimestamp = (new Date().getTime()/1000).toFixed(),
       venuesCount = 0,
